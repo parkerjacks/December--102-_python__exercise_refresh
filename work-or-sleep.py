@@ -10,8 +10,12 @@ and 'Sleep in' if it's a weekend day.
 
 day = int( input ( " Type a Day of the week 0 - 6 " ) )
 
-if day == 1 or day <= 5: 
+
+if 1  == day <= 5: 
     print("Go to work!")
 
-elif day == 0  or day <= 6: 
+elif  0 == day == 6: 
     print("Sleep in!")
+
+else: 
+    print("")
