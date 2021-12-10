@@ -7,7 +7,7 @@ width = int(input("Please type a value to represent width. "))
 height = int(input("Please type a value to represent height ")) 
 character = "*"
 count = 1
-empty_string=" "
+empty_string = " "
 
 for x in range(height): 
 
